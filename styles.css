@@ -1,0 +1,158 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 30px;
+  margin-bottom: 20px; /* Add margin-bottom to increase the gap */
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
+  transition: all 0.3s ease;
+}
+
+nav ul li a:hover {
+  transform: scale(1.1);
+}
+
+.profile {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.profile img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-bottom: 40px; /* Increase the margin-bottom value */
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease;
+}
+
+.profile img:hover {
+  transform: rotate(360deg);
+}
+
+.social-links {
+  margin-top: 20px;
+}
+
+.social-links a {
+  display: inline-block;
+  margin-right: 10px;
+  color: #555;
+  font-size: 20px;
+  transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+  color: #ff7f50;
+  transform: translateY(-5px);
+}
+
+section {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+  transform: scale(1);
+  transition: transform 0.3s ease;
+}
+
+section:nth-child(odd) {
+  background-color: #f9f9f9;
+}
+
+section:nth-child(even) {
+  background-color: #eaeaea;
+}
+
+section:hover {
+  transform: scale(1.02);
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  margin-bottom: 40px; /* Increase the margin-bottom value */
+  text-align: center;
+}
+
+/* Additional effects */
+.navbar-fade {
+  opacity: 0.7;
+  transition: opacity 0.3s ease;
+}
+
+.navbar-fade:hover {
+  opacity: 1;
+}
+
+.profile-fade {
+  opacity: 0.8;
+  transition: opacity 0.3s ease;
+}
+
+.profile-fade:hover {
+  opacity: 1;
+}
+
+.section-slide {
+  transform: translateX(-20px);
+  transition: transform 0.3s ease;
+}
+
+.section-slide:hover {
+  transform: translateX(0);
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: left; /* Align the menu items to the left */
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 10px; /* Add some spacing between the menu items */
+}
+
+nav ul li:first-child {
+  margin-left: 0; /* Remove the left margin for the first menu item */
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
+  transition: all 0.3s ease;
+}
+
+nav ul li a:hover {
+  transform: scale(1.1);
+  background-color: #555;
+  border-radius: 5px;
+}
